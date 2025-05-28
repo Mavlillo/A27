@@ -3,19 +3,19 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  --header-height: 5rem;
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(353, 93%, 50%);
+  --first-color:  hsl(59, 100%, 50%);
   --first-color-alt: hsl(353, 93%, 46%);
-  --first-color-dark: hsl(353, 50%, 15%);
-  --title-color: hsl(353, 48%, 12%);
-  --text-color: hsl(353, 16%, 32%);
+  --first-color-dark: hsl(0, 0%, 0%);
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: hsl(351, 54%, 97%);
   --text-color-light: hsl(353, 16%, 48%);
   --white-color: hsl(24, 86%, 90%);
-  --body-color: hsl(24, 86%, 88%);
-  --container-color: hsl(24, 86%, 92%);
+  --body-color: hsl(0, 0%, 0%);
+  --container-color: hsl(59, 100%, 50%);
   --shadow-small-img: drop-shadow(0 4px 16px hsla(353, 100%, 8%, .2));
   --shadow-big-img: drop-shadow(0 8px 24px hsla(353, 100%, 8%, .2));
 
@@ -152,12 +152,12 @@ img {
 .nav__logo{
   display: inline-flex;
   align-items: center;
-  column-gap: .25rem;
+  column-gap: 2rem;
   font-family: var(--second-font);
   color: var(--title-color);
 
   img{
-    width: 24px;
+    width: 50px;
   }
 }
 
