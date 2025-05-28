@@ -336,7 +336,7 @@ img {
   display: inline-flex;
   justify-content: center;
   background-color: var(--first-color);
-  color: var(--white-color);
+  color: var(--first-color-dark);
   padding: 1rem 1.5rem;
   font-weight: var(--font-semi-bold);
   border-radius: 4rem;
