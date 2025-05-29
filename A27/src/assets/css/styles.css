@@ -14,6 +14,7 @@
   --text-color: hsl(226, 100%, 50%);
   --text-color-light: hsl(353, 16%, 48%);
   --white-color: hsl(0, 100%, 50%);
+  --black-color: hsl(0, 0%, 0%);
   --body-color: hsl(0, 0%, 0%);
   --container-color: hsl(59, 100%, 50%);
   --shadow-small-img: drop-shadow(0 4px 16px hsla(353, 100%, 8%, .2));
@@ -375,7 +376,7 @@ img {
 
 .about__description{
   margin-bottom: 2rem;
-    color: var(--first-color-alt);
+  color: var(--black-color);
 }
 
 .about__sticker{
