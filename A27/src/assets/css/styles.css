@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet");
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -8,12 +8,12 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color:  hsl(59, 100%, 50%);
-  --first-color-alt: hsl(353, 93%, 46%);
+  --first-color-alt: hsl(138, 93%, 46%);
   --first-color-dark: hsl(0, 0%, 0%);
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(226, 100%, 50%);
   --text-color-light: hsl(353, 16%, 48%);
-  --white-color: hsl(24, 86%, 90%);
+  --white-color: hsl(0, 100%, 50%);
   --body-color: hsl(0, 0%, 0%);
   --container-color: hsl(59, 100%, 50%);
   --shadow-small-img: drop-shadow(0 4px 16px hsla(353, 100%, 8%, .2));
@@ -23,7 +23,7 @@
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Montserrat", sans-serif;
   --second-font: "Carter One", system-ui;
-  --biggest-font-size: 2.5rem;
+  --biggest-font-size: 3.5rem;
   --bigger-font-size: 1.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -124,6 +124,8 @@ img {
   text-align: center;
   font-size: var(--bigger-font-size);
   margin-bottom: 2rem;
+  color: var(--title-color);
+
 }
 
 .main {
@@ -276,10 +278,11 @@ img {
   display: grid;
   justify-items: center;
   justify-self: center;
+  width: 350px;
 }
 
 .home__ingredient{
-  width: 60px;
+  width: 200px;
   filter: var(--shadow-big-img);
   position: absolute;
   z-index: 2;
@@ -291,12 +294,12 @@ img {
 }
 
 .home__pizza{
-  width: 300px;
+  width: 200px;
   z-index: 2;
 }
 
 .home__board{
-  width: 300px;
+  width: 200px;
   position: absolute;
   bottom: -.5rem;
   left: -.15rem;
@@ -352,6 +355,7 @@ img {
 /*=============== ABOUT ===============*/
 .about{
   background-color: var(--container-color);
+  
 }
 
 .about__container{
@@ -366,10 +370,12 @@ img {
 
 .about__data, .section__title{
   margin-bottom: 1rem;
+    color: var(--white-color);
 }
 
 .about__description{
   margin-bottom: 2rem;
+    color: var(--first-color-alt);
 }
 
 .about__sticker{
@@ -394,7 +400,8 @@ img {
 
 .popular__data .section__title{
   margin-bottom: 1rem;
-}
+  color: var(--write-color);
+  }
 
 .popular__description{
   text-align: center;
@@ -461,11 +468,13 @@ img {
 /*=============== RECIPE ===============*/
 .recipe{
   background-color: var(--container-color);
+  
 }
 
 .recipe__container{
   row-gap: 2rem;
   padding-bottom: 2rem;
+  
 }
 
 .recipe__image{
@@ -476,6 +485,8 @@ img {
 .recipe__name{
   font-size: var(--normal-font-size);
   margin-bottom: .25rem;
+    color: var(--white-color);
+  
 }
 
 .recipe__description{
@@ -495,7 +506,7 @@ img {
 }
 
 
-/*=============== PRODUCTS ===============*/
+/*=============== PLAYERS ===============*/
 .products__container{
   padding-top: 3.5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -524,13 +535,14 @@ img {
 .products__name{
   font-size: var(--h3-font-size);
   margin-bottom: .5rem;
+  color: var(--white-color);
 }
 
 .products__price{
   font-family: var(--second-font);
   font-size: var(--h1-font-size);
   line-height: 120%;
-  color: var(--first-color);
+  color: var(--white-color);
 }
 
 .products__button{
