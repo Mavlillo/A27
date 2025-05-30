@@ -91,3 +91,4 @@ const sr = ScrollReveal({
 })
 
 sr.reveal(`.home__data, .popular__container, .footer`)
+

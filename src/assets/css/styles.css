@@ -13,7 +13,7 @@
   --title-color: hsl(0, 0%, 100%);
   --text-color: hsl(226, 100%, 50%);
   --text-color-light: hsl(353, 16%, 48%);
-  --white-color: hsl(0, 100%, 50%);
+  --white-color: hsl(0, 1%, 45%);
   --black-color: hsl(0, 0%, 0%);
   --body-color: hsl(0, 0%, 0%);
   --container-color: hsl(59, 100%, 50%);
@@ -1177,5 +1177,5 @@ img {
   .scrollup{
     right: 3rem;
   }
-
+  
 }
