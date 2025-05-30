@@ -426,7 +426,7 @@ img {
 }
 
 .popular__img{
-  transform: scale(.8) rotate(-90deg);
+  transform: scale(.8) rotate(0deg);
   transition: transform .4s;
 }
 
